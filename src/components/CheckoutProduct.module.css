@@ -1,0 +1,20 @@
+.product{
+    display: flex;
+   margin: 25px;
+}
+.rating{
+    display: flex;
+}
+.image{
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+.productDetails{
+    padding-left: 20px;
+}
+.productDetails> button{
+    background-color: #f0c14b;
+    border-color: #d1a841;
+    margin-top: 10px;
+}

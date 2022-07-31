@@ -1,0 +1,12 @@
+
+.homeImage{
+    width: 100%;
+    /**********ADD LINEAR GRADIENT TO AN IMGAGE THE LAST VARIABLE REPRESENTS THE OPACITY**********/
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    z-index: -1;
+    margin-bottom:-150px;
+}
+.homeRow{
+    display: flex;
+    justify-content: center;
+}

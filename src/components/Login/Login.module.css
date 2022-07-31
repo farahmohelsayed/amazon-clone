@@ -1,0 +1,46 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.loginLogo{
+    margin: 20px 0;
+    object-fit: contain;
+    width: 100px;
+}
+.loginContainer{
+width: 300px;
+padding: 20px;
+border: 1px solid lightgray;
+}
+.loginContainer >h1{
+    font-weight: 500px;
+    margin-bottom: 20px;
+}
+.loginContainer > form> h5{
+    margin-bottom: 5px;
+}
+.loginContainer >button{
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 2px;
+    height: 30px;
+    border: 1px solid lightgray;
+}
+form input{
+    border: 2px solid black;
+    width: 98%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+form button{
+    background-color: #f0c14b;
+    border-color: #d1a841;
+    width: 100%;
+    border-radius: 2px;
+    height: 30px;
+    align-self: center;
+    margin: 20px 0;
+}
