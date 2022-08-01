@@ -1,10 +1,49 @@
 # Amazon clone
 
-Built an e-commerce amazon clone using React.js, Redux and firebase for hosting.\
+Built an e-commerce amazon clone using React.js, Redux and firebase for sign in/sign up authentication and hosting.\
 Hosted on 
 
 ## Description
 The App is an e-commerce platform that allows you to purchase a variety of products.The products, along with it's description, are displayed on the homepage and hence  add products to the cart.
+
+
+## What You're Getting
+```bash
+├── CONTRIBUTING.md
+├── README.md - This file.
+├── package.json # npm package manager file. It's unlikely that you'll need to modify this.
+├── public
+│   ├── favicon.ico # React Icon, You may change if you wish.
+│   └── index.html # DO NOT MODIFY
+└── src
+    ├── App.css # Styles for your app. Feel free to customize this as you desire.
+    ├── App.js # This is the root of your app. Contains static HTML right now.
+    ├── App.test.js # Used for testing. Provided with Create React App. Testing is encouraged, but not required.
+    ├── components # component folder
+    │       ├── Header.js # Header Component. It includes; logo, search bar, and cart
+    │       ├── Header.module.css # Header Component CSS module
+    │       ├── Product.js  # Product Component that emphasises product details. The products are displayed on the homepage.
+    │       ├── Product.module.css  # Product Component CSS module
+    │       ├── Home.js  # Main homescreen that displays the amazon banner, header and products
+    │       ├── Home.module.css  # Home Component CSS module
+    │       ├── Checkout.js  # Where products added to the cart are found
+    │       ├── Checkout.module.css  # Checkout Component CSS module
+    │       ├── CheckoutProduct.js  # Details of products added to the cart
+    │       ├── CheckoutProduct.module.css  # CheckoutProduct Component CSS module
+    │       ├── Subtotal.js  # The total price and quantity of items added to the cart. The component is found within the checkout component
+    │       ├── Subtotal.module.css  # Subtotal Component CSS module
+    │       └── Login # A component folder that handles the sign in/sign up screen
+    │          ├── Login.js # Login/register Component
+    │          └── Login.module.css # Login Component CSS module
+    ├── Store # Redux state management
+    │   ├── index.js #Contains the main store with the reducers identified (using configureStore from react-toolkit)
+    │   ├── cart-slice.js # The cart state is created using the initial values, slice name and reducers identified
+    │   └──  user-slice.js # The user state is created using the initial values, slice name and reducers identified
+    ├── index.css # Global styles. You probably won't need to change anything here.
+    └── index.js # You should not need to modify this file. It is used for DOM rendering only.
+```
+
+
 
 ## Starting the App
 #### `npm install`
