@@ -1,30 +1,43 @@
-# Getting Started with Create React App
+# Amazon clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built an e-commerce amazon clone using React.js, Redux and firebase for hosting.\
+Hosted on 
 
-## Available Scripts
+## Description
+The App is an e-commerce platform that allows you to purchase a variety of products.The products, along with it's description, are displayed on the homepage and hence  add products to the cart.
 
-In the project directory, you can run:
+## Starting the App
+#### `npm install`
+To install all the dependencies and packages found in package.json.
+#### `npm start`
+To run the app in the development mode.
 
-### `npm start`
+## Hosting the App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### `firebase login`
+#### `firebase init`
+1. Select option Hosting: Configure and deploy Firebase Hosting sites.
+2. Select Use an existing project, and in that select Firebase project name.
+3. Type in 'build' to be used for public directory.
+4. For Configure as a single-page app question enter y for this option.
+5. Select N for overwriting index.html and copy paste the main index.html file into the new index.html.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### `firebase deploy`
+
+
+## Other Available Scripts
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include the hashes.
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
