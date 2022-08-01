@@ -18,8 +18,8 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.logo}>
-        <StorefrontIcon fontSize="large" className={styles.shopIcon} />
-        <h2 className={styles.title}>e-Shop</h2>
+        {/* <StorefrontIcon fontSize="large" className={styles.shopIcon} /> */}
+        <img className={styles.logoImage} src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"/>
       </div>
 
       <div className={styles.searchBar}>

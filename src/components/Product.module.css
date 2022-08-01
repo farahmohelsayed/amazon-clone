@@ -28,8 +28,6 @@
 }
 .product > button{
     background-color: #f0c14b;
-    border-color: #d1a841;
-    width: 150px;
-    align-self: center;
-    margin: 20px 0;
+    border:1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
 }

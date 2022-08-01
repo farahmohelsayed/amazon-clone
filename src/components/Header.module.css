@@ -10,10 +10,12 @@ padding:10px 0;
 }
 .logo{
     display: flex;
-    margin: 0 50px;
+    margin: 0 25px;
 }
 .logoImage{
     width: 100px;
+    margin-top:18px;
+    object-fit: contain;
 }
 .title, .cartNum{
     color: #fff;
